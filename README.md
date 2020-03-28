@@ -1,68 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Independent Beer to Go
+### STAY HOME, DRINK LOCAL, AND SUPPORT AN INDEPENDENT BREWERY. 
+[https://independentbeertogo.com](https://independentbeertogo.com) 
 
-## Available Scripts
+The COVID-19 pandemic has hit a number of industries hard including our local craft brewers. Luckily, many have kept their doors open for the sale of beer to-go. The idea of this site it to provide a listing of breweries, starting with LA County, that are currently offering you the chance to pickup a growler, crowler, bottle, can, or keg of fresh beer. 
 
-In the project directory, you can run:
+### How to Contribute
+1. Developers please take a look at the Projects tab for a list of action items or suggest your own.
+2. Designers please get involved by [Pitching Ideas!](https://github.com/bhalvy/independentbeertogo/projects/1)
+3. Update data via Google Docs and comment data additions/changes. The document will be reviewed and the site updated frequently. 
+### Google Doc
+The data for the site is read from this google document. To contribute please add a comment with the suggested change/addition and it will be reviewed by an admin and either added or removed. When adding data please follow these simple guidelines:
+1. Add Breweries on the correct sheet by County.
+2. If a county is missing, please add the brewery listing and county to add on the 'Additions' Sheet.
+3. Use exact formatting for urls. They must include a http:// or https:// at the beginning. 
+4. Keep the notes short, as design evolves we may be able to accommodate longer descriptions. 
 
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[Google Doc](https://docs.google.com/spreadsheets/d/1-jLEJ5laObeWv1Xidmojcq9-1IXtsfQduI4sHRA52CY/edit?usp=sharing)
