@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Table from './components/table'
-import { Typography, Container } from '@material-ui/core';
+import { Typography, Container, Link } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
@@ -44,9 +44,11 @@ function App() {
             </Container>
         </body>
         <footer className={classes.noFlex}>
-            <Typography variant="h3">
-                *This is a community project, visit Github to contribute.
-            </Typography>
+            <Link href={'https://github.com/bhalvy/independentbeertogo'}>
+                <Typography variant="h3">
+                        *This is a community project, visit Github to contribute.
+                </Typography>
+            </Link>
         </footer>
     </div>
   );
