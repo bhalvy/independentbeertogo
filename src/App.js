@@ -8,20 +8,27 @@ const useStyles = makeStyles((theme) => ({
     mainContainer: {
         display: 'flex',
         flexDirection: 'column',
-        maxHeight: '100vh',
-        alignContent: 'space-between',
+        height: '100%',
+        width: '100%',
+        left: '0',
+        position: 'fixed',
+        top: '0',
+    },
+    header: {
+        // height: '100%',
+    },
+    content: {
+        height: '100%',
+        overflowY: 'auto',
+    },
+    footer: {
+        alignSelf: 'flex-end',
+        width: '100%',
     },
     orangeLine: {
         padding: '1px',
         backgroundColor: '#fb8122',
     },
-    noFlex: {
-        flex: 'none',
-    },
-    flex: {
-        flex: 'flex-grow',
-
-    }
 }));
 
 function App() {
@@ -29,7 +36,8 @@ function App() {
 
     return (
     <div className={classes.mainContainer}>
-        <header className={classes.noFlex}>
+
+        <header className={classes.header}>
             <Typography variant="h1">
                 Independent Beer To Go
             </Typography>
@@ -38,18 +46,21 @@ function App() {
             </Typography>
             <div className={classes.orangeLine}/>
         </header>
-        <body className={classes.flex}>
+
+        <body className={classes.content}>
             <Container maxWidth={'sm'}>
                 <Table />
             </Container>
         </body>
-        <footer className={classes.noFlex}>
+
+        <footer className={classes.footer}>
             <Link href={'https://github.com/bhalvy/independentbeertogo'}>
                 <Typography variant="h3">
                         *This is a community project, visit Github to contribute.
                 </Typography>
             </Link>
         </footer>
+
     </div>
   );
 }
